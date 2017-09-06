@@ -24,7 +24,7 @@ public_tweets = api.search('immigrants')
 #and label each one as either 'positive' or 'negative', depending on the sentiment 
 #You can decide the sentiment polarity threshold yourself
 
-csvfile = open('thefile.csv', 'wb') #open file for operation
+csvfile = open('twitter_sentiment.csv', 'wb') #open file for operation
 writer = csv.writer(csvfile)   
 
 
